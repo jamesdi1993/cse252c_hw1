@@ -19,7 +19,7 @@ def errorMetric(RPred, RGt, TPred, TGt):
 
 
 def runSFM(dataset_path, feature_dir):
-    if_vis = True # set to True to do the visualization per frame; the images will be saved at '.vis/'. Turn off if you just want the camera poses and errors
+    if_vis = False # set to True to do the visualization per frame; the images will be saved at '.vis/'. Turn off if you just want the camera poses and errors
     if_on_screen = False # if True the visualization per frame is going to be displayed realtime on screen; if False there will be no display, but in both options the images will be saved
 
     # parameter settings (for an example, please download
